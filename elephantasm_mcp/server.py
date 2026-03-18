@@ -14,10 +14,10 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Resource, TextContent, Tool
 
+from . import resources as resource_fns
+from . import tools as tool_fns
 from .client import ElephantasmClient
 from .config import settings
-from . import tools as tool_fns
-from . import resources as resource_fns
 
 server = Server("elephantasm-mcp")
 
@@ -161,7 +161,10 @@ async def list_tools() -> list[Tool]:
                         "description": "Event type (default: message.in)",
                     },
                     "anima_id": {"type": "string"},
-                    "role": {"type": "string", "description": "Message role (user, assistant, etc.)"},
+                    "role": {
+                        "type": "string",
+                        "description": "Message role (user, assistant, etc.)",
+                    },
                     "author": {"type": "string", "description": "Author identifier"},
                     "session_id": {"type": "string", "description": "Session grouping ID"},
                 },
