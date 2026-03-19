@@ -1,12 +1,23 @@
+<div align="center">
+
+![Elephantasm](lightfinder.png)
+
 # elephantasm-mcp
 
-[![PyPI version](https://badge.fury.io/py/elephantasm-mcp.svg)](https://badge.fury.io/py/elephantasm-mcp)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+**MCP server for long-term agent memory.**
+Give any AI agent persistent memory, searchable knowledge, and an evolving identity.
+
+[![PyPI version](https://badge.fury.io/py/elephantasm-mcp.svg)](https://pypi.org/project/elephantasm-mcp/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[Model Context Protocol](https://modelcontextprotocol.io) server for [Elephantasm](https://elephantasm.com) Long-Term Agentic Memory.
+[Website](https://elephantasm.com) &middot; [Docs](https://elephantasm.com/docs) &middot; [PyPI](https://pypi.org/project/elephantasm-mcp/) &middot; [GitHub](https://github.com/kaminocorp/elephantasm-mcp)
 
-Give any MCP-compatible AI agent persistent memory, searchable knowledge, and an evolving identity — in one line of config.
+</div>
+
+---
+
+[Model Context Protocol](https://modelcontextprotocol.io) server for [Elephantasm](https://elephantasm.com) Long-Term Agentic Memory. One line of config.
 
 ## Installation
 
